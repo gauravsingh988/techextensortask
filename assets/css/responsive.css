@@ -1,0 +1,147 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .mainheader .nav_full,
+    .socia_iocnherosec {
+        display: none;
+    }
+
+    .verlisec .ver_line1 {
+        content: '';
+        position: absolute;
+        height: 49%;
+        width: 1px;
+        background: #000;
+        top: -306%;
+        left: 168px;
+    }
+
+    .mainsecbgimg .home_img_1 {
+        position: absolute;
+        top: -149px;
+        z-index: 0;
+        filter: blur(29px);
+        right: -150px;
+    }
+
+    .hero_mainsec {
+        position: relative;
+        z-index: 9;
+        padding-left: 30px;
+    }
+
+    .hero_title-right {
+        font-size: 1.5rem;
+    }
+
+    .mainsecbgimg .home_img_3 {
+        position: absolute;
+        top: 44%;
+        z-index: 0;
+        filter: blur(57px);
+        width: 100%;
+        height: 100%;
+        right: 0;
+        display: block;
+    }
+
+    .footesecion {
+        margin-top: 180px;
+    }
+
+    .verlisec .ver_line2 {
+        content: '';
+        position: absolute;
+        height: 48%;
+        width: 1px;
+        background: #000;
+        left: 179px;
+        top: -90px;
+    }
+
+    .btn-learnmore {
+        right: 30%;
+        padding: 10px 33px;
+    }
+
+    .footesecion .shap_iocn {
+        right: 5%;
+        top: -100px;
+    }
+
+    .footesecion {
+        border: none;
+    }
+
+    .slidesecond {
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+    }
+
+    .sliderfootegr {
+        display: none;
+    }
+
+    .footesecion .footertext {
+        padding-top: 30px !important;
+        font-size: 20px;
+        line-height: 28px;
+        width: 66%;
+        margin: auto;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .home_img_1 {
+        top: -114px;
+        z-index: 0;
+        filter: blur(32px);
+        right: -112px;
+    }
+
+    .mainsecbgimg .home_img_2 {
+        right: 0;
+    }
+
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 767px) {
+
+    .mainheader .nav_full,
+    .socia_iocnherosec {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .mobilemenu ul {
+        display: none;
+    } .slidesecond{
+        display: none;
+    }.mobilefhide{
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .mobilemenu ul {
+        display: none;
+    } .slidesecond{
+        display: none;
+    }.mobilefhide{
+        display: none;
+    }
+}
+
+
+
+@media only screen and (min-width : 1025px) {
+    .mobilemenu ul {
+        display: none;
+    }
+    .slidesecond{
+        display: none;
+    }
+    .mobilefhide{
+        display: none;
+    }
+}
